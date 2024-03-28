@@ -1,6 +1,10 @@
+@font-face {
+    font-family: buttermilk;
+    src: url(./Buttermilk[1].woff);
+}
 h1{
     font-size: 100px;
-    font-family:Buttermilk;
+    font-family:buttermilk;
 
    
     
