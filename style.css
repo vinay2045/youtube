@@ -3,7 +3,7 @@
     src: url(./Buttermilk[1].woff);
 }
 body {
-    font-family: sans-serif; /* Add a default font-family */
+    font-family: 'Arial', sans-serif; /* Add a default font-family */
     margin: 0; /* Reset default margins */
     display: flex;
     flex-direction: column;
@@ -18,6 +18,7 @@ h1{
     font-family: buttermilk;
     margin-top: 50px; /* Add margin for spacing */
     margin-bottom: 20px;
+    color: #007bff; /* Example color */
 }
 
 img {
@@ -35,4 +36,5 @@ img {
     margin: 20px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
+    font-size: 16px;
 }
