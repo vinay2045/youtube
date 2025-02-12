@@ -28,3 +28,11 @@ img {
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow for modern look*/
     border-radius: 5px; /* Add rounded corners */
 }
+
+#search {
+    width: 300px;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
