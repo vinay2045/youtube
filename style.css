@@ -47,3 +47,15 @@ img {
     border-radius: 5px;
     font-size: 16px;
 }
+
+button {
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    cursor: pointer;
+}
