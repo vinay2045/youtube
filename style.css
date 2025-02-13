@@ -59,3 +59,45 @@ button {
     color: white;
     cursor: pointer;
 }
+
+header {
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 100%;
+}
+
+#header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#logo {
+    font-size: 2em;
+    font-weight: bold;
+    color: #c4302b; /* Example YouTube red */
+}
+
+#search-bar {
+    width: 400px;
+}
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.video {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.video img {
+    width: 100%;
+    height: auto;
+}
