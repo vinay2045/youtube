@@ -1,52 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Reddit Clone</title>
+<title>YouTube Clone</title>
 <style>
 body {
   font-family: sans-serif;
 }
-.container {
-  width: 80%;
-  margin: 0 auto;
+#header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
 }
-.post {
-  border-bottom: 1px solid #ccc;
-  padding: 10px 0;
+#video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
 }
-.title {
+.video-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.video-thumbnail {
+  width: 100%;
+  height: auto;
+}
+.video-title {
+  padding: 10px;
   font-weight: bold;
-  font-size: 1.2em;
-}
-.subreddit {
-  color: #888;
-  font-size: 0.9em;
-}
-.upvotes {
-  color: green;
-}
-.downvotes {
-  color: red;
 }
 </style>
 </head>
 <body>
-<div class="container">
-  <h1>Reddit Clone</h1>
-  <div class="post">
-    <div class="title">My first post</div>
-    <div class="subreddit">r/test</div>
-    <div>
-        <span class="upvotes">10 upvotes</span> | <span class="downvotes">2 downvotes</span>
-    </div>
+<header id="header">
+  <h1>YouTube Clone</h1>
+</header>
+<main id="video-grid">
+  <div class="video-card">
+    <img class="video-thumbnail" src="https://via.placeholder.com/300x169" alt="Video Thumbnail">
+    <div class="video-title">Video Title 1</div>
   </div>
-  <div class="post">
-    <div class="title">Another post</div>
-    <div class="subreddit">r/anothertest</div>
-    <div>
-        <span class="upvotes">5 upvotes</span> | <span class="downvotes">1 downvotes</span>
-    </div>
+  <div class="video-card">
+    <img class="video-thumbnail" src="https://via.placeholder.com/300x169" alt="Video Thumbnail">
+    <div class="video-title">Video Title 2</div>
   </div>
-</div>
+  <div class="video-card">
+    <img class="video-thumbnail" src="https://via.placeholder.com/300x169" alt="Video Thumbnail">
+    <div class="video-title">Video Title 3</div>
+  </div>
+</main>
 </body>
 </html>
