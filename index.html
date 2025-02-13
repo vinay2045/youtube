@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>X Clone</title>
+<title>YouTube Clone</title>
 <style>
 body {
   background-color: #f0f0f0;
@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  width: 300px;
+  width: 800px;
   margin: 50px auto;
   background-color: #fff;
   padding: 20px;
@@ -33,13 +33,24 @@ body {
   border-radius: 3px;
   cursor: pointer;
 }
+
+.video-container {
+  margin-top: 20px;
+}
+
+.video {
+  width: 100%;
+}
 </style>
 </head>
 <body>
 <div class="container">
-  <h1>X Clone</h1>
-  <input type="text" class="input-field" placeholder="Enter text">
-  <button class="button">Submit</button>
+  <h1>YouTube Clone</h1>
+  <input type="text" class="input-field" placeholder="Search videos">
+  <button class="button">Search</button>
+  <div class="video-container">
+    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
 </div>
 </body>
 </html>
