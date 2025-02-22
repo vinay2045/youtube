@@ -1,33 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>X Clone</title>
+<title>Facebook Clone</title>
 <style>
 body {
   font-family: sans-serif;
 }
 .container {
   display: flex;
-  justify-content: center;
+  flex-direction: column; /* Changed to column for vertical layout */
   align-items: center;
   height: 100vh;
 }
 .box {
-  width: 100px;
-  height: 100px;
-  background-color: #f00;
+  width: 500px; /* Increased width */
+  height: auto; /* Removed fixed height */
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px; /* Added margin */
 }
 .clone {
-  width: 100px;
-  height: 100px;
-  background-color: #0f0;
-  margin-left: 20px;
+  display: none; /* Hide the original clone */
+}
+.post {
+  margin-bottom: 10px;
+}
+.post input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
 }
 </style>
 </head>
 <body>
 <div class="container">
-  <div class="box"></div>
+  <div class="box">
+    <h1>Facebook Clone</h1>
+    <div class="post">
+      <input type="text" placeholder="What's on your mind?">
+    </div>
+  </div>
   <div class="clone"></div>
 </div>
 </body>
