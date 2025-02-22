@@ -8,10 +8,11 @@ body {
   flex-direction: column; /* Changed to column for vertical layout */
   align-items: center;
   height: 100vh;
+  background-color: #f0f0f0; /* Light gray background */
 }
 
 .box {
-  width: 500px; /* Increased width */
+  width: 800px; /* Increased width */
   background-color: #fff;
   padding: 20px;
   border: 1px solid #ccc;
@@ -36,8 +37,8 @@ body {
 }
 
 .post button {
-  background-color: #4267b2; /* Facebook blue */
-  color: white;
+  background-color: #f0c14b; /* Amazon yellow */
+  color: #000; /* Black text */
   padding: 10px 15px;
   border: none;
   border-radius: 5px;
